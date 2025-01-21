@@ -9,13 +9,16 @@
   "cSpell.words": [
     "astro",
     "clsx",
+    "extralight",
     "fontawesome",
     "ionicons",
     "myapp",
     "roboto",
     "rtlcss",
     "themify",
-    "unocss"
+    "unocss",
+    "unplugin",
+    "vueuse"
   ],
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

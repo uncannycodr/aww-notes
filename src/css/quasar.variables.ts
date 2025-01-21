@@ -14,5 +14,7 @@ export const colors = {
   positive    : '#21BA45',
   negative    : '#C10015',
   info        : '#31CCEC',
-  warning     : '#F2C037'
+  warning     : '#F2C037',
+  white       : '#FFFFFF',
+  grey        : '#9E9E9E',
 }

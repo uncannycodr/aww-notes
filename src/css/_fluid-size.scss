@@ -1,0 +1,23 @@
+.font {
+  &-xs {
+    font-size: clamp(0.75rem, 2vw, 1rem); // 12px to 16px
+  }
+  &-sm {
+    font-size: clamp(0.875rem, 2vw, 1.25rem); // 14px to 20px
+  }
+  &-base {
+    font-size: clamp(1rem, 2vw, 1.5rem); // 16px to 24px
+  }
+  &-lg {
+    font-size: clamp(1.125rem, 2vw, 1.75rem); // 18px to 28px
+  }
+  &-xl {
+    font-size: clamp(1.25rem, 2vw, 2rem); // 20px to 32px
+  }
+  &-2xl {
+    font-size: clamp(1.5rem, 2vw, 2.5rem); // 24px to 40px
+  }
+  &-3xl {
+    font-size: clamp(1.875rem, 2vw, 3rem); // 30px to 48px
+  }
+}

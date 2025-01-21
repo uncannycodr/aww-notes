@@ -1,6 +1,7 @@
 import { PluginEntry } from '@quasar/app-vite/types/configuration/build';
 import UnoCSS from 'unocss/vite';
 import Components from 'unplugin-vue-components/vite';
+import AutoImport from 'unplugin-auto-import/vite';
 
 export const vitePlugins: PluginEntry[] = [
   [
@@ -22,5 +23,10 @@ export const vitePlugins: PluginEntry[] = [
 
   Components({
     dts: 'src/components.d.ts',
+  }),
+  AutoImport({
+    dts: 'src/auto-imports.d.ts',
+    imports: ['vue', 'vue-router', '@vueuse/core'],
+    dirs: ['src/data', 'src/libs', 'src/constants'],
   }),
 ];
